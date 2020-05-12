@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />    
     
     <!-- Nuestro CSS Compilado a través de SASS ó sin compilar solo CSS básico -->
+    <script src="js/javascript.js"></script>
     <link rel="stylesheet" href="css/estilos.css" />
     
   </head>
@@ -83,6 +84,16 @@
              *
             -->
             <h1>HolaMundo</h1>
+            <h2>Dades Personals</h2>
+
+            <form>
+              <label for="nom">Nom complet:</label><br>
+              <input type="text" id="nom" name="nom" ><br>
+              <label for="edat">Edat:</label><br>
+              <input type="text" id="edat" name="edat"><br><br>
+             
+              <button onclick="dadesPersonals()">Click me</button>
+            </form> 
           </section>
       
           <article>
