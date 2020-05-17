@@ -31,5 +31,5 @@ var num2 = 5;
 var nomweb= "Toni";
 
 //Cridada a la funció sexecuta quan es carrega la pagina index.html
-benvingut(nomweb);
-sumaNums(num1, num2);
+//benvingut(nomweb);
+//sumaNums(num1, num2);

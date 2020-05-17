@@ -41,6 +41,7 @@
     
     <!-- Nuestro CSS Compilado a través de SASS ó sin compilar solo CSS básico -->
     <script src="js/javascript.js"></script>
+    <script src="js/if.js"></script>
     <link rel="stylesheet" href="css/estilos.css" />
     
   </head>
@@ -78,24 +79,21 @@
       -->
       
           <section>
-            <!--
-             *
-             * Bloque SECTION
-             *
-            -->
-            <h1>HolaMundo</h1>
-            <h2>Dades Personals</h2>
-
+            <h1>Jugar a Pedra, Paper, Estisores</h1>
             <form>
-              <label for="nom">Nom complet:</label><br>
-              <input type="text" id="nom" name="nom" ><br>
-              <label for="edat">Edat:</label><br>
-              <input type="text" id="edat" name="edat"><br><br>
-             
-              <button onclick="dadesPersonals()">Click me</button>
-            </form> 
+             <label>Elegeix</label>
+             <select id="joc">
+                <option value="0">Pedra</option>
+                <option value="1">Paper</option>
+                <option value="2">Estisores</option>
+             </select>
+             <button type="submit"  onclick="jugar()">
+              Jugar
+             </button>
+           </form>
           </section>
-      
+        
+
           <article>
             <!--
              *
