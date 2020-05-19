@@ -92,14 +92,53 @@
              </button>
            </form>
           </section>
+
+          <section>
+            <h1>Marca de coches</h1>
+            
+            
+
+          <div id="nom"></div>
+          <div id="coches"></div>
+          <script type="text/javascript">
+
+          //variable  nom   
+            var person = prompt("Nom Complet:");
+
+          //pintam el nom a dins un div
+            document.getElementById('nom').innerHTML = person;
+            
+            //array marca
+              var marcas = []
+              var espai = '';
+              var x;
+
+              // for per afegir cada marca a array
+                for (i = 0; i <= 2; i++) {
+                    x = prompt("Ingresa tu coche:", "");
+                    marcas.push(x);
+                }
+
+                //conquetenam a topes les marques un espai per mostrar-les separades
+                for (i = 0; i <= 2; i++) {
+                  espai += marcas[i] + " ";
+                }
+               
+                //pintam el nom a dins un div
+               document.getElementById("coches").innerHTML = espai;
+             
+            
+
+          
+        
+         
+            </script>
+
+          </section>
         
 
           <article>
-            <!--
-             *
-             * Bloque ARTICLE
-             *
-            -->
+            
           </article>
       
     </main>
