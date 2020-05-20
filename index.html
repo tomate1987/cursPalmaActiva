@@ -130,8 +130,36 @@
             
 
           
-        
-         
+          // creacio de objecta persona
+          var persona = {
+                    nom : 'Jaume Moya',
+                    edat : '32',
+                    sexe :'Home',
+                    mostraredat: function() {  // Método que mostrará eddt persoan
+                      console.log(this.edat);
+                    }
+                };
+              
+            //creacio  objecte la cotxe
+              var cotxe = {
+                puertas : '5',
+                ruedas : '4',
+                color :'vermell',
+                    mostrarPortes: function() {  // Método que mostrará num de portes
+                      console.log(this.puertas);
+                    }
+                };
+          //creacio objecte la marca
+                var marca = {
+                    marca1 : 'Renault',
+                    marca2 : 'citroen',
+                    marca3 :'Ford',
+                    mostraMarcas: function() {  // Método que mostrará el tipos de marques
+                      console.log(this.marca1+ ' '+ this.marca2+ ' ' +this.marca3);
+                    }
+                };
+             
+
             </script>
 
           </section>
