@@ -33,3 +33,48 @@ var nomweb= "Toni";
 //Cridada a la funció sexecuta quan es carrega la pagina index.html
 //benvingut(nomweb);
 //sumaNums(num1, num2);
+
+
+//crear 10 cotxos.
+function crearCotxe(portes,color,marca,rodes)
+{
+
+  var cotxe = {
+    portes : portes,
+    color : color,
+    marca :marca,
+    rodes :rodes, 
+    };
+
+    
+
+}
+crearCotxe(4,"vermell","tesla",4);
+crearCotxe(4,"Groc","renault",4);
+crearCotxe(4,"negre","nissan",4);
+crearCotxe(4,"vermell","ford",4);
+crearCotxe(4,"rosa","ford",4);
+crearCotxe(4,"vermell","nissan",4);
+crearCotxe(4,"blanc","peugot",4);
+crearCotxe(4,"gris","ford",4);
+crearCotxe(4,"marron","renault",4);
+crearCotxe(4,"morat","citroen",4);
+
+//Constructor
+function crearCotxe2(portes,color,marca,rodes) { 
+	this.Portes = portes;
+	this.Color = color;
+	this.Marca = marca;
+	this.Rodes = rodes;
+}
+
+crearCotxe2(4,"vermell","tesla",4);
+crearCotxe2(4,"Groc","renault",4);
+crearCotxe2(4,"negre","nissan",4);
+crearCotxe2(4,"vermell","ford",4);
+crearCotxe2(4,"rosa","ford",4);
+crearCotxe2(4,"vermell","nissan",4);
+crearCotxe2(4,"blanc","peugot",4);
+crearCotxe2(4,"gris","ford",4);
+crearCotxe2(4,"marron","renault",4);
+crearCotxe2(4,"morat","citroen",4);
