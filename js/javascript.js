@@ -78,3 +78,12 @@ crearCotxe2(4,"blanc","peugot",4);
 crearCotxe2(4,"gris","ford",4);
 crearCotxe2(4,"marron","renault",4);
 crearCotxe2(4,"morat","citroen",4);
+
+//funcio de posar dni i retorna la LEETRA
+function letreDNI(dni)
+    {
+        var cadena="TRWAGMYFPDXBNJZSQVHLCKET";
+        var posicion = dni%23;
+        var letra = cadena.substring(posicion,posicion+1);
+        return letra;
+    }
