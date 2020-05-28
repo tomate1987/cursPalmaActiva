@@ -87,3 +87,48 @@ function letreDNI(dni)
         var letra = cadena.substring(posicion,posicion+1);
         return letra;
     }
+
+//crear classe amb herencies
+class Animal {
+  constructor(nom, color,potes,edat) {
+    this.nom = nom;
+    this.color = color;
+    this.potes = potes;
+    this.edat = edat;
+  }
+
+  //metode
+  xerrar() {
+    console.log(this.nom + ' fa un renou per xerrar.');
+  }
+}
+//cream una clase que heredi de animal
+class Moix extends Animal {
+
+  constructor(nom, color,potes,edat,pel) {
+    super(nom,color,potes,edat)
+    this.pel = pel;
+   
+  }
+  maullar() {
+    console.log(this.nom + ' maulla fort.');
+  }
+}
+
+//cream una clase que heredi de animal
+class Ca extends Animal {
+
+  constructor(nom, color,potes,edat,pel) {
+    super(nom,color,potes,edat,pel)
+ 
+   
+  }
+  lladrar() {
+    console.log(this.nom + ' lladra fort');
+  }
+}
+
+//intancies
+var animal = new Moix("animal1","negre",4,9);
+var moix1 = new Moix("moix1","gris",4,2,"llarg");
+var ca1 = new Ca("ca1","marron",4,7,"curt");
