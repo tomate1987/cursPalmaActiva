@@ -48,9 +48,16 @@
    <!-- <script src="js/javascript.js"></script>
     <script src="js/if.js"></script>-->
 
-    <script src="js/api.js"></script>
+   
   
-
+    <style>
+      .formulari {
+        border: 2px outset red;
+        background-color: lightblue;    
+        text-align: center;
+        padding: 50px;
+      }
+      </style>
 
 
 
@@ -91,22 +98,21 @@
       
         <section>
 
-          <form name="miFormulario" onsubmit="return Valida(this);" action="http://aprenderaprogramar.com" >
-            Campo1 <input type="text" name="campo1"><br>
-            Campo2 (debe ser número) <input type="text" name="campo2"><br>
-            Código postal <input type="text" name="cpostal"><br>
-            DNI <input type="text" name="dni"><br>
-            email <input type="text" name="email"><br>
-            <input type="submit" value="Enviar" name="enviar">
-        </form>
-    </body>
-</html>
+          <h1>Validación de DNI</h1>
 
-
-        </section>
-
+          <div class="formulari">
+            <form  method="post">
+              <label form="nom">Nombre:</label> 
+               <input id="nom" name="nom" type="text"> 
+               <br><br>
+               <label form="dni">DNI:</label> 
+               <input id="dni" name="dni" type="text"> 
+               <br><br>
+               <input type="submit" value="Comprobar " onclick="comprobarPolicia()">
+               </form>
+          </div>
           
-        
+        </section>
 
           <article>
             
@@ -121,5 +127,6 @@
         *
         -->
     </footer>
+    <script src="js/dni.js"></script>
   </body>
 </html>
