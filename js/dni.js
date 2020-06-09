@@ -46,10 +46,24 @@ function validar(numDNI){
 
 }
 
+// cambiar fondo con el dia
 function cambiarfondo(x) {
     var f = document.getElementById("colores").value;
     var body = document.getElementById("body")
  body.style.backgroundColor = x.value;
+}
+
+// cambiar fondo con el dia
+function aumentartamaño() {
+    logo = document.getElementById("balon");
+    logo.width = 400;
+    logo.height = 400;
+}
+
+function disminuirtamaño() {
+    logo = document.getElementById("balon");
+    logo.width = 200;
+    logo.height = 200;
 }
 
    
