@@ -46,4 +46,10 @@ function validar(numDNI){
 
 }
 
+function cambiarfondo(x) {
+    var f = document.getElementById("colores").value;
+    var body = document.getElementById("body")
+ body.style.backgroundColor = x.value;
+}
+
    
