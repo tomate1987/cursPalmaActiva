@@ -1,0 +1,45 @@
+
+
+.rellotja{
+
+    width: 250px;
+     background-color: black;
+     color: white ; 
+     text-align: center ;
+     font-size: 15px;
+     font-size: 55px;
+} 
+
+
+
+.boton{
+
+    width: 250px;
+     background-color: black;
+     color: white ; 
+     text-align: center ;
+     font-size: 15px;
+     font-size: 55px;
+} 
+
+
+
+
+#content { 
+    overflow:auto; 
+    width: 600px; 
+    background: black; 
+    color: white ; 
+  } 
+  
+  #left, #right { 
+    width: 40%; 
+    margin:5px; 
+    padding: 1em; 
+    background: black; 
+    color: white ; 
+    height: 50px;
+  } 
+  
+  #left  { float:left;  }
+  #right { float:right; } 
