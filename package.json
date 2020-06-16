@@ -1,0 +1,29 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "asincronismo",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/api.js",
+    "promesa": "node src/promesa/index.js",
+    "promesa:api": "node src/promesa/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomate1987/cursPalmaActiva.git"
+  },
+  "keywords": [
+    "callback",
+    "promesa"
+  ],
+  "author": "jaume moya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomate1987/cursPalmaActiva/issues"
+  },
+  "homepage": "https://github.com/tomate1987/cursPalmaActiva#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
